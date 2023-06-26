@@ -18,7 +18,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Pierwszy Taniec Poznań',
-  description: 'Strona Marty Klisowskiej prowadzącej zajęcia dla par przygotwujących się do pierwszego tańca',
+  description: 'Strona Marty Klisowskiej dla par przygotwujących się do pierwszego tańca',
 }
 
 export default function RootLayout({
@@ -32,35 +32,35 @@ export default function RootLayout({
         <NavigationMenu>
           <NavigationMenuList className="flex h-16 items-center px-4">
             <NavigationMenuItem>
-              <Link href="/docs" legacyBehavior passHref>
+              <Link href="/o-mnie" legacyBehavior passHref>
                 <NavigationMenuLink >
                   O mnie
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/docs" legacyBehavior passHref>
+              <Link href="/uslugi" legacyBehavior passHref>
                 <NavigationMenuLink>
                   Usługi
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/docs" legacyBehavior passHref>
+              <Link href="/portfolio" legacyBehavior passHref>
                 <NavigationMenuLink>
                   Portfolio
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/docs" legacyBehavior passHref>
+              <Link href="/opinie" legacyBehavior passHref>
                 <NavigationMenuLink>
                   Opinie
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/docs" legacyBehavior passHref>
+              <Link href="/kontakt" legacyBehavior passHref>
                 <NavigationMenuLink>
                   Kontakt
                 </NavigationMenuLink>
@@ -68,7 +68,6 @@ export default function RootLayout({
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
-
         {children}
       </body>
     </html>
