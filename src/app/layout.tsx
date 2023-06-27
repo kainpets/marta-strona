@@ -16,7 +16,6 @@ import Image from 'next/image'
 
 
 
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Pierwszy Taniec Poznań',
@@ -30,46 +29,49 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div className="flex items-center px-4 justify-between">
+      <body>
+        <div className="flex items-center px-4 justify-between text-white">
+          <Link href="/">
       <Image
       src="/../public/logoHomePage.png"
-      width={250}
-      height={250}
+      width={200}
+      height={200}
       alt="Logo Pierwszy Taniec Poznań"
+      style={{borderRadius: "50%"}}
     />
+    </Link>
         <NavigationMenu>
           <NavigationMenuList >
             <NavigationMenuItem>
-              <Link href="/o-mnie" legacyBehavior passHref>
+              <Link href="/o-mnie" passHref>
                 <NavigationMenuLink >
                   O mnie
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/uslugi" legacyBehavior passHref>
+              <Link href="/uslugi" passHref>
                 <NavigationMenuLink>
                   Usługi
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/portfolio" legacyBehavior passHref>
+              <Link href="/portfolio" passHref>
                 <NavigationMenuLink>
                   Portfolio
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/opinie" legacyBehavior passHref>
+              <Link href="/opinie" passHref>
                 <NavigationMenuLink>
                   Opinie
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/kontakt" legacyBehavior passHref>
+              <Link href="/kontakt" passHref>
                 <NavigationMenuLink>
                   Kontakt
                 </NavigationMenuLink>
