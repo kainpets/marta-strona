@@ -31,12 +31,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex h-16 items-center px-4">
+        <div className="flex items-center px-4 justify-between">
       <Image
       src="/../public/logoHomePage.png"
-      width={150}
-      height={150}
-      alt="Picture of the author"
+      width={250}
+      height={250}
+      alt="Logo Pierwszy Taniec Poznań"
     />
         <NavigationMenu>
           <NavigationMenuList >
