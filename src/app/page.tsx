@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="overflow-hidden text-white">
       <Image 
-      src="/../public/Julia&Miłosz_672.jpg"
+      src="/Julia&Miłosz_672.jpg"
       alt="Zakochana para"
       fill={true}
       style={{objectFit: "cover", zIndex: -1}}

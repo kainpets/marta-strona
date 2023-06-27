@@ -33,7 +33,7 @@ export default function RootLayout({
         <div className="flex items-center px-4 justify-between text-white">
           <Link href="/">
       <Image
-      src="/../public/logoHomePage.png"
+      src="/logoHomePage.png"
       width={200}
       height={200}
       alt="Logo Pierwszy Taniec Poznań"
