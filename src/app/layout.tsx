@@ -11,6 +11,8 @@ import {
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu"
 import Link from 'next/link'
+import Image from 'next/image'
+
 
 
 
@@ -29,8 +31,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <div className="flex h-16 items-center px-4">
+      <Image
+      src="/../public/logoHomePage.png"
+      width={150}
+      height={150}
+      alt="Picture of the author"
+    />
         <NavigationMenu>
-          <NavigationMenuList className="flex h-16 items-center px-4">
+          <NavigationMenuList >
             <NavigationMenuItem>
               <Link href="/o-mnie" legacyBehavior passHref>
                 <NavigationMenuLink >
@@ -68,6 +77,7 @@ export default function RootLayout({
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
+        </div>
         {children}
       </body>
     </html>
