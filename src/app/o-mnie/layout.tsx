@@ -1,20 +1,12 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
+import '../globals.css'
 import {
   NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu"
 import Link from 'next/link'
 import Image from 'next/image'
-
-
-
 
 
 export const metadata = {
@@ -29,13 +21,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <div className="flex items-center px-4 justify-between text-white">
-          <Link href="/">
+      <body className='bg-slate-200'>
+        <div className="flex items-center px-4 justify-between text-black">
+          <Link href="/" passHref>
             <Image
-              src="/logoHomePage.png"
-              width={200}
-              height={200}
+              src="/logoOtherPages.png"
+              width={175}
+              height={175}
               alt="Logo Pierwszy Taniec Poznań"
               style={{ borderRadius: "50%" }}
             />
