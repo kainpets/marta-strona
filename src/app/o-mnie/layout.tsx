@@ -1,10 +1,4 @@
 import '../globals.css'
-import {
-  NavigationMenu,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-} from "@/components/ui/navigation-menu"
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -32,45 +26,35 @@ export default function RootLayout({
               style={{ borderRadius: "50%" }}
             />
           </Link>
-          <NavigationMenu>
-            <NavigationMenuList >
-              <NavigationMenuItem>
-                <Link href="/o-mnie" passHref>
-                  <NavigationMenuLink >
-                    O mnie
-                  </NavigationMenuLink>
+          <nav>
+            <li className='flex items-center px-4 justify-between gap-4'>
+              <div>
+                <Link href="/o-mnie">
+                  O mnie
                 </Link>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <Link href="/uslugi" passHref>
-                  <NavigationMenuLink>
-                    Usługi
-                  </NavigationMenuLink>
+              </div>
+              <div>
+                <Link href="/uslugi">
+                  Usługi
                 </Link>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <Link href="/portfolio" passHref>
-                  <NavigationMenuLink>
-                    Portfolio
-                  </NavigationMenuLink>
+              </div>
+              <div>
+                <Link href="/portfolio">
+                  Portfolio
                 </Link>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <Link href="/opinie" passHref>
-                  <NavigationMenuLink>
-                    Opinie
-                  </NavigationMenuLink>
+              </div>
+              <div>
+                <Link href="/opinie">
+                  Opinie
                 </Link>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <Link href="/kontakt" passHref>
-                  <NavigationMenuLink>
-                    Kontakt
-                  </NavigationMenuLink>
+              </div>
+              <div>
+                <Link href="/kontakt">
+                  Kontakt
                 </Link>
-              </NavigationMenuItem>
-            </NavigationMenuList>
-          </NavigationMenu>
+              </div>
+            </li>
+          </nav>
         </div>
         {children}
       </body>

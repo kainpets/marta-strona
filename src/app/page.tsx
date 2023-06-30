@@ -2,12 +2,13 @@ import Image from "next/image"
 
 export default function Home() {
   return (
-    <main className="overflow-hidden text-white">
+    <main className="overflow-hidden text-white ">
       <Image 
       src="/Julia&Miłosz_672.jpg"
       alt="Zakochana para"
       fill={true}
-      style={{objectFit: "cover", zIndex: -1}}
+      priority
+      style={{objectFit: "cover", zIndex: -1, width: "100%", height: "100%"}}
       />
       <div className="flex flex-col max-w-sm">
       <h1 className="text-6xl">Pierwszy Taniec Poznań</h1>
