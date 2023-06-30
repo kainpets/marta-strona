@@ -3,7 +3,7 @@ import Image from "next/image"
 
 function MainNav() {
   return (
-    <div className="flex flex-row items-center px-4 justify-between text-white">
+    <div className="flex flex-row items-center justify-between text-white">
       <Link href="/" passHref>
         <Image
           src="/logoHomePage.png"
@@ -14,7 +14,7 @@ function MainNav() {
         />
       </Link>
       <nav>
-        <li className='flex items-center px-4 justify-between gap-4'>
+        <li className='flex items-center px-4 justify-between gap-4 text-xl'>
           <div>
             <Link href="/o-mnie">
               O mnie

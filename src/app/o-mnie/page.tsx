@@ -3,8 +3,8 @@ import SideNav from "@/components/ui/SideNav"
 function OMnie() {
   return (
     <div>
-      O mnie
       <SideNav />
+      O mnie
     </div>
   )
 }
