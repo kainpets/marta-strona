@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 function SideNav() {
   return (
-    <div className='bg-slate-200 w-screen min-h-screen '>
-      <div className="flex items-center px-4 justify-between text-black max-w-screen-2xl m-auto">
+    <div>
+      <div className="flex px-4 justify-between text-black max-w-screen-2xl m-auto">
         <Link href="/" passHref>
           <Image
             src="/logoOtherPages.png"
