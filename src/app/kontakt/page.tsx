@@ -1,6 +1,11 @@
+import SideNav from "@/components/ui/SideNav"
+
 function Kontakt() {
   return (
-    <div>Kontakt</div>
+
+    <div>
+      <SideNav />
+    </div>
   )
 }
 

@@ -1,7 +1,11 @@
+import SideNav from "@/components/ui/SideNav"
 
 function OMnie() {
   return (
-    <div>Jestem se Marta</div>
+    <div>
+      O mnie
+      <SideNav />
+    </div>
   )
 }
 

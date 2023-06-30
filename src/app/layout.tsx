@@ -14,48 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl">
-      <body>
-        <div className="flex flex-row items-center px-4 justify-between text-white">
-          <Link href="/" passHref>
-            <Image
-              src="/logoHomePage.png"
-              width={200}
-              height={200}
-              alt="Logo Pierwszy Taniec Poznań"
-              style={{ borderRadius: "50%" }}
-            />
-          </Link>
-          <nav>
-            <li className='flex items-center px-4 justify-between gap-4'>
-              <div>
-                <Link href="/o-mnie">
-                  O mnie
-                </Link>
-              </div>
-              <div>
-                <Link href="/uslugi">
-                  Usługi
-                </Link>
-              </div>
-              <div>
-                <Link href="/portfolio">
-                  Portfolio
-                </Link>
-              </div>
-              <div>
-                <Link href="/opinie">
-                  Opinie
-                </Link>
-              </div>
-              <div>
-                <Link href="/kontakt">
-                  Kontakt
-                </Link>
-              </div>
-            </li>
-          </nav>
-        </div>
-        {children}
+      <body className='max-w-screen-2xl m-auto'>
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   )
