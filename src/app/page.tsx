@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Home() {
   return (
-    <main className="overflow-hidden text-white px-16 pt-16">
+    <main className="overflow-hidden text-white px-16 pt-16 max-w-screen-2xl m-auto">
       <Image 
       src="/Julia&Miłosz_672.jpg"
       alt="Zakochana para"

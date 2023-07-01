@@ -1,13 +1,10 @@
-import SideNav from "@/components/ui/SideNav"
 import Image from "next/image"
-import marta from "/public/DSC08590.JPG"
 
 function OMnie() {
   return (
-    <main className="bg-slate-200 w-screen min-h-screen px-16 pt-16">
-      <SideNav />
+    <main>
       <div className="flex flex-row gap-8" style={{ maxHeight:"60vh", position: 'relative'}}>
-        <Image src={marta} style={{height: "auto", width:"50%", maxHeight: "100%"}}  alt="Uśmiechnięta Marta z dwoma kciukami w górze" />
+        <Image src="/../public/martazkciukami.JPG" width={500} height={500} style={{height: "auto", maxWidth:"50%", maxHeight: "100%"}}  alt="Uśmiechnięta Marta z dwoma kciukami w górze" />
         <div className="flex flex-col gap-1">
           <h2 className="text-2xl">Cześć!</h2>
           <h2 className="text-2xl">Mam na imię Marta i jestem <br/>instruktorką tańca.</h2>
