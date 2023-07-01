@@ -10,6 +10,7 @@ function SideNav() {
             src="/logoOtherPages.png"
             width={175}
             height={175}
+            className='hover:shadow-lg hover:shadow-black/30'
             alt="Logo Pierwszy Taniec Poznań"
             style={{ borderRadius: "50%" }}
           />

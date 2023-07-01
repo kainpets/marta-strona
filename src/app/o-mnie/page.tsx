@@ -3,8 +3,8 @@ import Image from "next/image"
 function OMnie() {
   return (
     <main>
-      <div className="flex flex-row gap-8" style={{ maxHeight:"60vh", position: 'relative'}}>
-        <Image src="/../public/martazkciukami.JPG" width={500} height={500} style={{height: "auto", maxWidth:"50%", maxHeight: "100%"}}  alt="Uśmiechnięta Marta z dwoma kciukami w górze" />
+      <div className="flex flex-col gap-8 sm:flex-row" style={{ maxHeight:"60vh"}}>
+        <Image src="/../public/martazkciukami.JPG" width={500} height={500} style={{height: "auto", maxWidth:"50%", maxHeight: "100%"}} className="rounded object-scale-down"  alt="Uśmiechnięta Marta z dwoma kciukami w górze" />
         <div className="flex flex-col gap-1">
           <h2 className="text-2xl">Cześć!</h2>
           <h2 className="text-2xl">Mam na imię Marta i jestem <br/>instruktorką tańca.</h2>
