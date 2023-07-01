@@ -8,8 +8,10 @@ function layout({
 }) {
   return (
     <div className="bg-slate-200 w-screen min-h-screen px-16 pt-16">
-      <SideNav />
-      {children}
+      <div className="max-w-screen-xl m-auto">
+        <SideNav />
+        {children}
+      </div>
     </div>
   )
 }

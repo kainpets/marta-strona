@@ -2,7 +2,7 @@ import Image from "next/image"
 
 function OMnie() {
   return (
-    <main>
+    <main className="max-w-screen-2xl m-auto pt-4">
       <div className="flex flex-col gap-8 sm:flex-row" style={{ maxHeight:"60vh"}}>
         <Image src="/../public/martazkciukami.JPG" width={500} height={500} style={{height: "auto", maxWidth:"50%", maxHeight: "100%"}} className="rounded object-scale-down"  alt="Uśmiechnięta Marta z dwoma kciukami w górze" />
         <div className="flex flex-col gap-1">
