@@ -6,15 +6,22 @@ function Portfolio() {
       <main className="max-w-screen-2xl m-auto pt-16 px-16">
         <SideNav />
         <h2>Zapraszam do zapoznania się z występami moich pięknych par młodych, z których jestem BARDZO dumna! Więcej na moim profilu na YouTube.</h2>
-        <div className="flex flex-row gap-8">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/i9EtZgCjfPk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/mc-7tzKjJfE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/LqvE-7Xv5fE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        <div style={{
+          display: "grid",
+          gridGap: "16px",
+          gridTemplateColumns: "auto auto auto",
+          paddingTop: "2rem",
+          height: "40vh"
+        }}>
+          <iframe className="w-full h-full aspect-video" src="https://www.youtube.com/embed/i9EtZgCjfPk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          <iframe className="w-full h-full aspect-video" src="https://www.youtube.com/embed/mc-7tzKjJfE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          <iframe className="w-full h-full aspect-video" src="https://www.youtube.com/embed/LqvE-7Xv5fE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         </div>
-        <button className="px-4 bg-green-400 text-white rounded-xl">
-          <a href="https://www.youtube.com/@martaklisowska2017">ZOBACZ WIĘCEJ</a>
+        <div className="w-1/2 mx-auto text-center pt-8 ">
+        <button className="h-8 px-4 bg-green-400 text-white rounded-xl">
+          <a target="_blank" href="https://www.youtube.com/@martaklisowska2017">ZOBACZ WIĘCEJ</a>
         </button>
-
+        </div>
       </main>
 
     </div>
