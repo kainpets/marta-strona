@@ -4,7 +4,7 @@ import Link from "next/link"
 
 function Uslugi() {
   return (
-    <div className="bg-slate-200 w-screen min-h-screen ">
+    <div className="bg-slate-200 w-screen min-h-screen">
       <main className="max-w-screen-2xl m-auto pt-16 px-16">
         <SideNav />
         <div style={{
@@ -42,7 +42,7 @@ function Uslugi() {
             <p className="text-justify">Zajęcia pełne kobiecości, na których każda z Was może poczuć się jak gwiazda Broadway&apos;u. Prowadzę zajęcia grupowe i indywidualne. Realizuję też tańce na wieczorach panieńskich.</p>
           </div>
         </div>
-        <div className=" sm:fixed sm:bottom-8 border-8 border-solid border-orange-500 margin-auto w-2/4 ">
+        <div className=" sm:fixed sm:bottom-8 margin-auto w-2/4 ">
           <h3 >Chcesz dowiedzieć się więcej? <Link href="/kontakt" className="font-bold">Zadzwoń!</Link></h3>
         </div>
       </main>
