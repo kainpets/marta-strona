@@ -9,7 +9,7 @@ function MainNav() {
           width={200}
           height={200}
           alt="Logo Pierwszy Taniec Poznań"
-          style={{ borderRadius: "50%" }}
+          style={{ borderRadius: "50%", flexShrink: "0"}}
         />
       <nav>
         <li className='flex items-center px-4 justify-between gap-6 text-xl'>
