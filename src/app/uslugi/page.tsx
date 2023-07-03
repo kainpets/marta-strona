@@ -16,7 +16,7 @@ function Uslugi() {
           display: "grid",
           gridGap: "34px",
           gridTemplateColumns: "repeat(auto-fit, minmax(200px, auto))",
-          paddingTop: "2rem",
+          paddingTop: "4rem",
           alignItems: "baseline",
         }}>
           <div style={{ position: "relative", height: "400px" }}>
