@@ -18,7 +18,7 @@ function Portfolio() {
           <iframe className="w-full h-full aspect-video" src="https://www.youtube.com/embed/LqvE-7Xv5fE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         </div>
         <div className="w-1/2 mx-auto text-center pt-8 ">
-        <button className="h-8 px-4 bg-green-400 text-white rounded-xl">
+        <button className="h-8 px-4 bg-green-400 text-white rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">
           <a target="_blank" href="https://www.youtube.com/@martaklisowska2017">ZOBACZ WIĘCEJ</a>
         </button>
         </div>

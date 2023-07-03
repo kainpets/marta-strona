@@ -39,7 +39,7 @@ function Opinie() {
           <h2></h2>
         </div>
         <div className="w-1/5 mx-auto pb-4">
-          <button className="h-8 mt-8 px-4 bg-green-400 text-white rounded-xl">
+          <button className="h-8 mt-8 px-4 bg-green-400 text-white rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">
             <a href="https://www.facebook.com/martaklisowskapierwszytaniec/reviews" target="_blank">ZOBACZ WIĘCEJ</a>
           </button>
         </div>
