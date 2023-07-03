@@ -9,9 +9,9 @@ import {
 function Opinie() {
   return (
     <div className="bg-slate-200 w-screen min-h-screen">
-      <main className="max-w-screen-2xl m-auto pt-16 px-16">
+      <main className="max-w-screen-2xl m-auto pt-16 px-16 ">
         <SideNav />
-        <div  className="flex gap-4 mt-16">
+        <div  className="flex flex-wrap lg:flex-nowrap gap-4 mt-16 ">
           <Card className="py-2">
             <CardContent className="text-justify">
               Długo myślałam co napisać, ponieważ nasz pierwszy taniec który Marta dla nas stworzyła był wyjątkowy, ponadto zrobił dużą furorę wśród gości! Goście mówili: „tak pięknego tańca jeszcze nie widzieliśmy”,  „trudno będzie go pobić innym tańcem”. Dodatkowo czas z Martą jest cudowny. Dziewczyna pełna energii, chcąca sprostać najcięższym wyzwaniom! Tak jak nasze, gdy mając już cały przygotowany taniec postanowiliśmy zmienić piosenkę!!! Co na to Marta?! Od razu podłapała temat i od razu zaczęła działać!!! I cała choreografia przerosła nasze oczekiwania!!! Marta jest bardzo pozytywną osobą i nie ważne jak byliśmy zmęczeni na zajęcia z Martą szliśmy chętnie, a wychodziliśmy z ogromnym uśmiechem!!! Jeśli ktoś się zastanawia jeszcze nad wyborem osoby, która poprowadzi Wasz pierwszy taniec, to naprawdę polecam Martę, która robi to z pasją!!!
@@ -38,7 +38,7 @@ function Opinie() {
           </p>
           <h2></h2>
         </div>
-        <div className="w-1/2 mx-auto">
+        <div className="w-1/5 mx-auto pb-4">
           <button className="h-8 mt-8 px-4 bg-green-400 text-white rounded-xl">
             <a href="https://www.facebook.com/martaklisowskapierwszytaniec/reviews" target="_blank">ZOBACZ WIĘCEJ</a>
           </button>
