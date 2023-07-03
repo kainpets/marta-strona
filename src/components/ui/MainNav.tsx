@@ -4,7 +4,6 @@ import Image from "next/image"
 function MainNav() {
   return (
     <div className="flex flex-row justify-between text-white">
-      <Link href="/" passHref>
         <Image
           src="/logoHomePage.png"
           width={200}
@@ -12,7 +11,6 @@ function MainNav() {
           alt="Logo Pierwszy Taniec Poznań"
           style={{ borderRadius: "50%" }}
         />
-      </Link>
       <nav>
         <li className='flex items-center px-4 justify-between gap-6 text-xl'>
           <div>
