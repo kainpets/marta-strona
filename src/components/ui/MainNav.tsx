@@ -9,7 +9,7 @@ function MainNav() {
           src={logoHomePage}
           placeholder="blur"
           alt="Logo Pierwszy Taniec Poznań"
-          style={{ borderRadius: "50%", flexShrink: "0"}}
+          style={{ borderRadius: "50%", flexShrink: "0", maxWidth: "200px"}}
         />
       <nav>
         <li className='flex items-center px-4 justify-between gap-6 text-xl'>

@@ -7,12 +7,12 @@ function SideNav() {
     <div>
       <div className="flex px-4 justify-between text-black max-w-screen-2xl m-auto">
         <Link href="/" passHref>
-          <Image
+          <Image 
             src={logoOtherPages}
             placeholder='blur'
-            className='hover:shadow-lg hover:shadow-black/30'
+            className='hover:shadow-lg hover:shadow-black/30 transition duration-300 ease-in-out hover:scale-110'
             alt="Logo Pierwszy Taniec Poznań"
-            style={{ borderRadius: "50%" }}
+            style={{ borderRadius: "50%", maxWidth: "150px" }}
           />
         </Link>
         <nav>
