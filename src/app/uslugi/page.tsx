@@ -1,6 +1,10 @@
 import SideNav from "@/components/ui/SideNav"
 import Image from "next/image"
 import Link from "next/link"
+import martalabedz from "/public/martalabedz.jpg"
+import martaradzi from "/public/martaradzi.jpg"
+import martanogadogory from "/public/martanogadogory.jpg"
+
 
 function Uslugi() {
   // TODO fix responsivness
@@ -16,7 +20,7 @@ function Uslugi() {
           alignItems: "baseline",
         }}>
           <div style={{ position: "relative", height: "400px" }}>
-            <Image src="/martanogadogory.JPG" alt="Marta tańczy z nogą uniesioną do góry" width={200} height={200} sizes="33vw" style={{
+            <Image src={martanogadogory} alt="Marta tańczy z nogą uniesioną do góry" placeholder="blur" sizes="33vw" style={{
               objectFit: "cover",
               width: "100%",
               height: "70%"
@@ -25,7 +29,7 @@ function Uslugi() {
             <p className="text-justify">Prowadzę zajęcia taneczne na eventach, warsztaty dla osób początkujących oraz tancerzy. Zapraszam na grupowe zajęcia taneczne dla wszystkich grup zaawansowania. </p>
           </div>
           <div style={{ position: "relative", height: "400px" }}>
-            <Image src="/martaradzi.JPG" alt="Para tańczy na pierwszym planie, Marta doradza w tle" width={200} height={200} sizes="33vw" style={{
+            <Image src={martaradzi} alt="Para tańczy na pierwszym planie, Marta doradza w tle" placeholder="blur" sizes="33vw" style={{
               objectFit: "cover",
               width: "100%",
               height: "70%"
@@ -34,7 +38,7 @@ function Uslugi() {
             <p className="text-justify">Pierwszy taniec to głównie lekcje indywidualne dla par młodych. Zaczynamy od podstawowych kroków tańca użytkowego, potem przechodzimy do przygotowanej dla Was choreografii. </p>
           </div>
           <div style={{ position: "relative", height: "400px" }}>
-            <Image src="/martalabedz.JPG" alt="Marta tańczy we wdzięcznej pozie" width={200} height={200} sizes="33vw" style={{
+            <Image src={martalabedz} alt="Marta tańczy we wdzięcznej pozie" placeholder="blur" sizes="33vw" style={{
               objectFit: "cover",
               width: "100%",
               height: "70%"
