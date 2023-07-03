@@ -1,5 +1,7 @@
 import SideNav from "@/components/ui/SideNav"
 import { FacebookIcon, Instagram, Mail, Phone, Youtube } from "lucide-react"
+import Image from "next/image"
+import marta from "/public/martakontakt.jpg"
 
 function Kontakt() {
   return (
@@ -7,8 +9,10 @@ function Kontakt() {
     <div className="bg-slate-200 w-screen min-h-screen">
       <main className="max-w-screen-2xl m-auto pt-16 px-16">
         <SideNav />
-        <div>
-          <div >
+        <div className="flex gap-16 mx-auto w-full mt-16" style={{
+          maxHeight: "60vh"
+        }}>
+          <div>
             <h2 className="text-3xl">KONTAKT</h2>
             <ul className="mt-4 flex flex-col gap-6">
               <li className="flex flex-row gap-2">
@@ -33,7 +37,18 @@ function Kontakt() {
               </li>
             </ul>
           </div>
-          <div></div>
+          <div className="hidden md:block">
+            <Image
+              src={marta}
+              placeholder="blur"
+              alt="Uśmiechnięta Marta czeka na kontakt" style={{
+                objectFit: "contain",
+                width: "full",
+                height: "full",
+                maxHeight: "100%",
+                maxWidth: "80%",
+              }} />
+          </div>
         </div>
       </main>
     </div>
