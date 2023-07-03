@@ -1,6 +1,4 @@
 import './globals.css'
-import Link from 'next/link'
-import Image from 'next/image'
 
 export const metadata = {
   title: 'Pierwszy Taniec Poznań',
@@ -14,6 +12,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl">
+      <head>
+        <link rel='icon' href='/favicon-32x32.png'></link>
+      </head>
       <body >
         <div >
           {children}
