@@ -5,7 +5,6 @@ import marta from "/public/martakontakt.jpg"
 
 function Kontakt() {
   return (
-
     <div className="bg-slate-200 w-screen min-h-screen">
       <main className="max-w-screen-2xl m-auto pt-16 px-16">
         <SideNav />
