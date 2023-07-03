@@ -1,13 +1,13 @@
 import Link from "next/link"
 import Image from "next/image"
+import logoHomePage from "/public/logoHomePage.png"
 
 function MainNav() {
   return (
     <div className="flex flex-row justify-between text-white">
         <Image
-          src="/logoHomePage.png"
-          width={200}
-          height={200}
+          src={logoHomePage}
+          placeholder="blur"
           alt="Logo Pierwszy Taniec Poznań"
           style={{ borderRadius: "50%", flexShrink: "0"}}
         />

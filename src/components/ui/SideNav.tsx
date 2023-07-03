@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import logoOtherPages from "/public/logoOtherPages.png"
 
 function SideNav() {
   return (
@@ -7,9 +8,8 @@ function SideNav() {
       <div className="flex px-4 justify-between text-black max-w-screen-2xl m-auto">
         <Link href="/" passHref>
           <Image
-            src="/logoOtherPages.png"
-            width={175}
-            height={175}
+            src={logoOtherPages}
+            placeholder='blur'
             className='hover:shadow-lg hover:shadow-black/30'
             alt="Logo Pierwszy Taniec Poznań"
             style={{ borderRadius: "50%" }}
