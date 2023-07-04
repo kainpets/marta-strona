@@ -28,11 +28,11 @@ function Kontakt() {
               </li>
               <li className="flex flex-row gap-2">
                 <Mail />
-                <a href="mailto:klisowska.marta@gmail.com?subject=Zajęcia&body=Chcę wziąć udział w zajęciach">@klisowska.marta@gmail.com</a>
+                <a href="mailto:klisowska.marta@gmail.com?subject=Zajęcia&body=Chcę wziąć udział w zajęciach" target="_blank">@klisowska.marta@gmail.com</a>
               </li>
               <li className="flex flex-row gap-2">
                 <Phone />
-                <p>+48 793 792 883</p>
+                <a href="tel:793792883">+48 793 792 883</a>
               </li>
             </ul>
           </div>
