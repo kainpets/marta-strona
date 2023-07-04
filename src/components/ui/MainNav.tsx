@@ -7,10 +7,11 @@ function MainNav() {
   return (
     <div className="flex flex-row justify-between text-white">
       <Image
+      className="w-[100px] md:w-[200px]"
         src={logoHomePage}
         placeholder="blur"
         alt="Logo Pierwszy Taniec Poznań"
-        style={{ borderRadius: "50%", flexShrink: "0", maxWidth: "200px" }}
+        style={{ borderRadius: "50%", flexShrink: "0", }}
       />
       <nav>
         <li className='flex items-center px-4 justify-between gap-6 text-xl'>
