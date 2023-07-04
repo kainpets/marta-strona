@@ -17,7 +17,7 @@ function MainNav() {
   return (
     <div className="flex flex-row justify-between text-white">
       <Image
-        className="w-[100px] md:w-[200px]"
+        className="w-[100px] md:w-[200px] transition-all"
         src={logoHomePage}
         placeholder="blur"
         alt="Logo Pierwszy Taniec Poznań"
@@ -62,8 +62,8 @@ function MainNav() {
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
-        <div className="hidden md:block md:w-auto">
-          <li className='flex items-center px-4 justify-between gap-6 text-xl'>
+        <div className="hidden md:block md:w-auto lg:text-xl md:text-sm">
+          <li className='flex items-center px-4 justify-between gap-6 '>
             <div className="hover:bg-slate-600 rounded-lg px-1 transition duration-300">
               <Link className="flex gap-2" href="/o-mnie">
                 <User2 />

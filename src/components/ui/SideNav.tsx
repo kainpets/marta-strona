@@ -58,7 +58,7 @@ function SideNav() {
               </DropdownMenuContent>
             </DropdownMenu>
           </div>
-          <div className="hidden md:block md:w-auto">
+          <div className="hidden md:block md:w-auto lg:text-xl md:text-sm">
             <li className='flex items-center px-4 justify-between gap-4'>
               <div className="hover:bg-slate-400 rounded-lg p-1 transition duration-300">
                 <Link className="flex gap-2" href="/o-mnie">
