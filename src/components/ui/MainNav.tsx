@@ -3,15 +3,16 @@
 import Link from "next/link"
 import Image from "next/image"
 import logoHomePage from "/public/logoHomePage.png"
-import { Album, ClipboardCheck, PhoneOutgoing, Presentation, User2 } from "lucide-react"
+import { Album, ClipboardCheck, Menu, PhoneOutgoing, Presentation, User2 } from "lucide-react"
+import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu"
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+} from "@/components/ui/navigation-menu"
 
 function MainNav() {
   return (
@@ -25,42 +26,50 @@ function MainNav() {
       />
       <nav>
         <div className="md:hidden">
-          <DropdownMenu>
-            <DropdownMenuTrigger>Menu</DropdownMenuTrigger>
-            <DropdownMenuContent>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>
-              <Link className="flex gap-2" href="/o-mnie">
-                <User2 />
-                O mnie
-              </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link className="flex gap-2" href="/uslugi">
-                  <Presentation />
-                  Usługi
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-              <Link className="flex gap-2" href="/portfolio">
-                <Album />
-                Portfolio
-              </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-              <Link className="flex gap-2" href="/opinie">
-                <ClipboardCheck />
-                Opinie
-              </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-              <Link className="flex gap-2" href="/kontakt">
-                <PhoneOutgoing />
-                Kontakt
-              </Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
+          <NavigationMenu>
+            <NavigationMenuList>
+              <NavigationMenuItem>
+                <NavigationMenuTrigger>
+                  <div className="text-black flex gap-1 ">
+                    <Menu />
+                    Menu
+                  </div>
+                </NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <Link href="/o-mnie" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                      <User2 />
+                      O mnie
+                    </NavigationMenuLink>
+                  </Link>
+                  <Link href="/uslugi" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                      <Presentation />
+                      Usługi
+                    </NavigationMenuLink>
+                  </Link>
+                  <Link href="/portfolio" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                      <Album />
+                      Portfolio
+                    </NavigationMenuLink>
+                  </Link>
+                  <Link href="/opinie" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                      <ClipboardCheck />
+                      Opinie
+                    </NavigationMenuLink>
+                  </Link>
+                  <Link href="/kontakt" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                      <PhoneOutgoing />
+                      Kontakt
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
         </div>
         <div className="hidden md:block md:w-auto lg:text-xl md:text-sm">
           <li className='flex items-center px-4 justify-between gap-6 '>
