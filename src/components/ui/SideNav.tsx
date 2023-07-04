@@ -18,33 +18,33 @@ function SideNav() {
         </Link>
         <nav>
           <li className='flex items-center px-4 justify-between gap-4'>
-            <div className="flex flex-row gap-2 hover:bg-slate-400 rounded-lg p-1 transition duration-300">
+            <div className="hover:bg-slate-400 rounded-lg p-1 transition duration-300">
+              <Link className="flex gap-2" href="/o-mnie">
               <User2 />
-              <Link href="/o-mnie">
                 O mnie
               </Link>
             </div>
-            <div className="flex flex-row gap-2 hover:bg-slate-400 rounded-lg p-1 transition duration-300">
+            <div className="hover:bg-slate-400 rounded-lg p-1 transition duration-300">
+              <Link className="flex gap-2" href="/uslugi">
               <Presentation />
-              <Link href="/uslugi">
                 Usługi
               </Link>
             </div>
-            <div className="flex flex-row gap-2 hover:bg-slate-400 rounded-lg p-1 transition duration-300">
+            <div className="hover:bg-slate-400 rounded-lg p-1 transition duration-300">
+              <Link className="flex gap-2" href="/portfolio">
               <Album />
-              <Link href="/portfolio">
                 Portfolio
               </Link>
             </div>
-            <div className="flex flex-row gap-2 hover:bg-slate-400 rounded-lg p-1 transition duration-300">
+            <div className="hover:bg-slate-400 rounded-lg p-1 transition duration-300">
+              <Link className="flex gap-2" href="/opinie">
               <ClipboardCheck />
-              <Link href="/opinie">
                 Opinie
               </Link>
             </div>
-            <div className="flex flex-row gap-2 hover:bg-slate-400 rounded-lg p-1 transition duration-300">
+            <div className="hover:bg-slate-400 rounded-lg p-1 transition duration-300">
+              <Link className="flex gap-2" href="/kontakt">
               <PhoneOutgoing />
-              <Link href="/kontakt">
                 Kontakt
               </Link>
             </div>
