@@ -1,4 +1,11 @@
 import './globals.css'
+import { Poppins } from "@next/font/google"
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+})
+
 
 export const metadata = {
   title: 'Pierwszy Taniec Poznań',
@@ -15,7 +22,7 @@ export default function RootLayout({
       <head>
         <link rel='icon' href='/favicon-32x32.png'></link>
       </head>
-      <body >
+      <body className={`${poppins.className}`}>
         <div >
           {children}
         </div>

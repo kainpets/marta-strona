@@ -4,6 +4,7 @@ import logoHomePage from "/public/logoHomePage.png"
 import { Album, ClipboardCheck, PhoneOutgoing, Presentation, User2 } from "lucide-react"
 import MobileNav from "./mobileNav"
 
+
 function MainNav() {
   return (
     <div className="flex flex-row justify-between text-white">
