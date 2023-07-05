@@ -12,8 +12,8 @@ function Kontakt() {
           maxHeight: "60vh"
         }}>
           <div>
-            <h2 className="text-3xl">KONTAKT</h2>
-            <ul className="mt-4 flex flex-col gap-6">
+            <h2 className="text-3xl text-center">KONTAKT</h2>
+            <ul className="mt-4 flex flex-col gap-6 md:text-xl">
               <li className="flex flex-row gap-2">
                 <FacebookIcon color="#030099" />
                 <a href="https://www.facebook.com/martaklisowskapierwszytaniec" target="_blank">@martaklisowskapierwszytaniec</a>

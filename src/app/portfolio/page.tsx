@@ -20,7 +20,7 @@ function Portfolio() {
           </div>
           <div className="w-1/2 mx-auto text-center pt-8 ">
             <a target="_blank" href="https://www.youtube.com/@martaklisowska2017">
-              <button className="h-8 px-4 bg-green-400 text-white shadow rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">ZOBACZ WIĘCEJ
+              <button className="px-4 bg-green-400 text-white shadow rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">ZOBACZ WIĘCEJ
               </button>
             </a>
           </div>
