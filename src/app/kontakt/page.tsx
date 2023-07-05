@@ -8,7 +8,7 @@ function Kontakt() {
     <div className="bg-slate-200 w-screen min-h-screen">
       <main className="max-w-screen-2xl m-auto pt-16 px-16">
         <SideNav />
-        <div className="flex gap-16 mx-auto w-full mt-16" style={{
+        <div className="flex gap-16 mx-auto max-w-[70%] mt-16" style={{
           maxHeight: "60vh"
         }}>
           <div>
