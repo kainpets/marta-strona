@@ -6,7 +6,7 @@ function Portfolio() {
       <main className="max-w-screen-2xl m-auto pt-16 px-16">
         <SideNav />
         <div className="pt-16 text-center">
-          <h2>Zapraszam do zapoznania się z występami moich pięknych par młodych, z których jestem BARDZO dumna! Więcej na moim profilu na YouTube.</h2>
+          <h2>Zapraszam do zapoznania się z występami moich pięknych par młodych, z których jestem <strong className="font-medium">BARDZO</strong> dumna! Więcej na moim profilu na YouTube.</h2>
           <div className="flex flex-col gap-4 pt-4 lg:flex-row">
             <iframe className="w-full h-full aspect-video" src="https://www.youtube.com/embed/i9EtZgCjfPk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             <iframe className="w-full h-full aspect-video" src="https://www.youtube.com/embed/mc-7tzKjJfE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
