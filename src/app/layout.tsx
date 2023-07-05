@@ -22,7 +22,7 @@ export default function RootLayout({
       <head>
         <link rel='icon' href='/favicon-32x32.png'></link>
       </head>
-      <body className={`${poppins.className}`}>
+      <body className={`${poppins.className} bg-slate-200`}>
         <div >
           {children}
         </div>

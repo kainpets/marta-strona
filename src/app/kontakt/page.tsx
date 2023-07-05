@@ -28,7 +28,7 @@ function Kontakt() {
               </li>
               <li className="flex flex-row gap-2">
                 <Mail />
-                <a href="mailto:klisowska.marta@gmail.com?subject=Zajęcia&body=Chcę wziąć udział w zajęciach" target="_blank">@klisowska.marta@gmail.com</a>
+                <a href="mailto:klisowska.marta@gmail.com?subject=Pytanie&body=Interesują mnie zajęcia" target="_blank">@klisowska.marta@gmail.com</a>
               </li>
               <li className="flex flex-row gap-2">
                 <Phone />
