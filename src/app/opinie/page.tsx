@@ -14,8 +14,8 @@ function Opinie() {
     <div className="bg-slate-200 w-screen min-h-screen">
       <main className="max-w-screen-2xl m-auto pt-16 px-16 ">
         <SideNav />
-        <div className="flex gap-4 mt-16 ">
-          <Card className="relative flex flex-col py-2 pt-8 items-center">
+        <div className="flex gap-y-[130px] gap-4 mt-16 flex-col md:flex-row">
+          <Card className="relative flex flex-col py-8 items-center ">
             <Image src={opinia1} placeholder="blur" alt="Para weselna" style={{
               objectFit: "cover",
               height: "125px",
@@ -31,7 +31,7 @@ function Opinie() {
             </CardContent>
             <CardTitle className="text-center">KAROLINA I KRIS</CardTitle>
           </Card>
-          <Card className="relative flex flex-col py-2 pt-8 items-center">
+          <Card className="relative flex flex-col py-8 items-center ">
             <Image src={opinia2} placeholder="blur" alt="Para weselna" style={{
               objectFit: "cover",
               height: "125px",
@@ -48,7 +48,7 @@ function Opinie() {
             </CardContent>
             <CardTitle className="text-center">OLIWIA I ARTUR</CardTitle>
           </Card>
-          <Card className="relative flex flex-col py-2 pt-8 items-center">
+          <Card className="relative flex flex-col py-8 items-center ">
             <Image src={opinia3} placeholder="blur" alt="Para weselna" style={{
               objectFit: "cover",
               height: "125px",
@@ -67,14 +67,13 @@ function Opinie() {
             </CardContent>
             <CardTitle className="text-center">KLAUDIA I MICHAŁ</CardTitle>
           </Card>
-          <p>
-          </p>
-          <h2></h2>
         </div>
-        <div className="w-1/5 mx-auto pb-4">
-          <button className="h-8 mt-8 px-4 bg-green-400 text-white rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">
-            <a href="https://www.facebook.com/martaklisowskapierwszytaniec/reviews" target="_blank">ZOBACZ WIĘCEJ</a>
-          </button>
+        <div className="w-1/5 mx-auto ">
+          <a href="https://www.facebook.com/martaklisowskapierwszytaniec/reviews" target="_blank">
+            <button className="mt-8 px-4 bg-green-400 text-white rounded-xl hover:scale-125 hover:bg-green-500 transition duration-500">
+              ZOBACZ WIĘCEJ
+            </button>
+          </a>
         </div>
       </main>
     </div>
