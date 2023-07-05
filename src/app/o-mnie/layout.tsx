@@ -1,6 +1,9 @@
 import SideNav from '@/components/ui/SideNav'
 import React from 'react'
 
+
+// NextJS complains if this file is deleted...
+
 function layout({
   children,
 }: {
