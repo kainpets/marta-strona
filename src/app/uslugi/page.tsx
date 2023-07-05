@@ -25,7 +25,7 @@ function Uslugi() {
               height: "70%"
             }} />
             <div className="pt-4">
-              <h2>WARSZTATY TANECZNE</h2>
+              <h2 className="text-center">WARSZTATY TANECZNE</h2>
               <p className="text-justify">Prowadzę zajęcia taneczne na eventach, warsztaty dla osób początkujących oraz tancerzy. Zapraszam na grupowe zajęcia taneczne dla wszystkich grup zaawansowania. </p>
             </div>
           </div>
@@ -36,7 +36,7 @@ function Uslugi() {
               height: "70%"
             }} />
             <div className="pt-4">
-              <h2>PIERWSZY TANIEC</h2>
+              <h2 className="text-center">PIERWSZY TANIEC</h2>
               <p className="text-justify">Pierwszy taniec to głównie lekcje indywidualne dla par młodych. Zaczynamy od podstawowych kroków tańca użytkowego, potem przechodzimy do przygotowanej dla Was choreografii. </p>
             </div>
           </div>
@@ -47,13 +47,13 @@ function Uslugi() {
               height: "70%"
             }} />
             <div className="pt-4">
-              <h2>TANIEC DLA KOBIET</h2>
+              <h2 className="text-center">TANIEC DLA KOBIET</h2>
               <p className="text-justify">Zajęcia pełne kobiecości, na których każda z Was może poczuć się jak gwiazda Broadway&apos;u. Prowadzę zajęcia grupowe i indywidualne. Realizuję też tańce na wieczorach panieńskich.</p>
             </div>
           </div>
         </div>
-        <div className="marginx-auto w-full text-center">
-          <h3 >Chcesz dowiedzieć się więcej? <Link href="/kontakt" className="font-bold">Zadzwoń!</Link></h3>
+        <div className="marginx-auto w-full text-center pb-2">
+          <h3 className="text-lg">Chcesz dowiedzieć się więcej? <Link href="/kontakt" className="font-bold">Zadzwoń!</Link></h3>
         </div>
       </main>
     </div>
